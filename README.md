@@ -10,7 +10,7 @@ Add your scripts after installation to start seeding, you can simply drag and dr
 Then open your index.html file and  add the <a href="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js">webtorrent standalone script</a> as well as  legion.js 
 ```javascript
 <script src="webtorrent.min.js"><script>
-<script src="../legion.js"></script>
+<script src="legion.js"></script>
 ```
 Now call the main function like so:
 ```javascript
