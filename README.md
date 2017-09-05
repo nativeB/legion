@@ -1,5 +1,5 @@
 
-# About
+# Legion
 A simple script  that uses the power of webtorrent to serve your  site's scripts and resources ,its all <a href="https://webtorrent.io/">Webtorrent</a>  here, legion just handles the file.this will reduce the load on your servers  by letting your users chip  in , script 
 here or there wont hurt them .Oh and Torrents are immutable so rest assured no one gonna change your files
 
