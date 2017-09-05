@@ -1,17 +1,17 @@
 
 # Legion
-A simple script  that uses the power of webtorrent to serve your  site's scripts and resources ,its all <a href="https://webtorrent.io/">Webtorrent</a>  here, legion just handles the file.this will reduce the load on your servers  by letting your users chip  in , script 
-here or there wont hurt them .Oh and Torrents are immutable so rest assured no one gonna change your files
+A simple script  that uses the power of webtorrent to serve your  site's scripts and resources ,its all <a href="https://webtorrent.io/">Webtorrent</a>  here, legion just handles the file.this will reduce the load on your servers  by letting your users chip  in , a script 
+here or there wont hurt .Oh and Torrents are immutable so rest assured no one gonna change your files
 
 ## Getting started
-Download  <a href="https://webtorrent.io/desktop/">webtorrent desktop</a> client for use as your very own cdn server
-Add your scripts after installation, you can simply drag and drop them in there one by one not bulk.
+Download  <a href="https://webtorrent.io/desktop/">webtorrent desktop</a> client for use as your very own cdn server.
+Add your scripts after installation to start seeding, you can simply drag and drop them in there one by one not bulk.
 
-Then open your index.html file and  add the <a href="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js">webtorrent standalone script</a> and  legion.js 
-
+Then open your index.html file and  add the <a href="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js">webtorrent standalone script</a> as well as  legion.js 
+```javascript
 <script src="webtorrent.min.js"><script>
 <script src="../legion.js"></script>
-
+```
 Now call the main function like so:
 ```javascript
  <script>
