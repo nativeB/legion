@@ -1,7 +1,7 @@
 
 # Legion
 A simple script  that uses the power of webtorrent to serve your  site's scripts and resources ,its all <a href="https://webtorrent.io/">Webtorrent</a>  here, legion just handles the file.this will reduce the load on your servers  by letting your users chip  in , a script 
-here or there wont hurt .Oh and Torrents are immutable so rest assured no one gonna change your files
+here or there wont hurt .Oh and Torrents are immutable so rest assured no ones going to  change your files
 
 ## Getting started
 Download  <a href="https://webtorrent.io/desktop/">webtorrent desktop</a> client for use as your very own cdn server.
