@@ -4,7 +4,7 @@ A simple script  that uses the power of webtorrent to serve your  site's scripts
 here or there wont hurt them .Oh and Torrents are immutable so rest assured no one gonna change your files
 
 ## Getting started
-Download  <a href="https://webtorrent.io/desktop/"> webtorrent desktop</a>client for use as your very own cdn server
+Download  <a href="https://webtorrent.io/desktop/">webtorrent desktop</a> client for use as your very own cdn server
 Add your scripts after installation, you can simply drag and drop them in there one by one not bulk.
 
 Then open your index.html file and  add the <a href="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js">webtorrent standalone script</a> and  legion.js 
@@ -24,14 +24,14 @@ Now call the main function like so:
  You can add as many as you want 
  
   <strong>locations</strong> in the document can either be the <strong>head</strong> or the<strong>body</strong>
- The <strong>infohash</strong> is the info hash of the torrent you created in the webtorrent client, it can be as manny as you want  but remember to add them in order of preference{important files first}
+ The <strong>infohash</strong> is the infohash of the torrent you created in the webtorrent client, it can be as many as you want  but remember to add them in order of preference{important files first}
  
  The fallback fields accepts the file paths to your scripts , this is used when your user dosent support webtorrent you can just add only the name if legion.js is in the same folder
  
  
 oh and to get the info hash of your torrent just rightclick your torrent in the webtorrent desktop 
 copy the instant.io link 
-past it in your editor and just copy everything after  instant.io/#
+paste it in your editor and just copy everything after  instant.io/#
 
 
 ## Prerequisites
