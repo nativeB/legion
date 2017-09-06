@@ -16,7 +16,8 @@ Now call the main function like so:
 ```javascript
  <script>
     legion.main("location","fallback","infohash")
-  eg. legion.main("head","tcs.css","db285c841af6a3c19ef8b479b8e9c0c031797c80,db285c841af6a3c19ef8b479b8e9c0c031797c80")
+ // eg. 
+  legion.main("head","tcs.css","db285c841af6a3c19ef8b479b8e9c0c031797c80,db285c841af6a3c19ef8b479b8e9c0c031797c80")
       legion.main("body","cs.css","db285c841af6a3c19ef8b479b8e9c0c031797c80,db285c841af6a3c19ef8b479b8e9c0c031797c80")
  </script>
  ```
