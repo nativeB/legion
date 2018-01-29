@@ -32,7 +32,7 @@ Now call the main function like so:
  
 oh and to get the info hash of your torrent just rightclick your torrent in the webtorrent desktop 
 copy the instant.io link 
-paste it in your editor and just copy everything after  instant.io/#
+paste it in your editor and just copy everything after instant.io/#
 
 
 ## Prerequisites
