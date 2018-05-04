@@ -67,7 +67,7 @@
         }
 
         legion.fallback=function () {
-            //fallback just loads your scripts normally
+            //fallback just loads your scripts normally when webtorrent fails or browser dosent support
             var i=0;
             var fallbackparams=[...arguments]
             var head = document.head
@@ -76,7 +76,7 @@
                     var h = document.createElement('script');
                     h.src =file;
                     h.id = i;
-                    console.log("calledn")
+                    
                     head.append(h)
                     i++
                 }
@@ -85,7 +85,7 @@
                     s.href= file
                     s.rel="stylesheet"
                     s.id = i
-                    console.log("calledn")
+                    
                     head.append(s)
                     i++
                 }
